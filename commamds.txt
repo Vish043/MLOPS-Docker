@@ -1,0 +1,6 @@
+to build - "docker build -t mlops-docker-test ."
+for tagging - "docker tag mlops-docker-test vish43/mlops-docker-test:latest"
+to push - "docker push vish43/mlops-docker-test:latest"
+
+to run basically in command prompt (power shell) - " docker run -p 5000:5000 vikash95/mlops-docker-demo:latest"
+to pull - "docker pull vikash95/mlops-docker-demo:latest"
